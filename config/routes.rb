@@ -1,1 +1,1 @@
-get 'posts/:id', to: 'posts#show'
+resources :posts, only: :show
